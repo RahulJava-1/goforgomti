@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>GoForGomti - About Us</title>
+
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet"/>
+    <link href="assets/css/bootstrap-theme.min.css" rel="stylesheet"/>
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet"/>
+      <link href="assets/css/lightbox.css" rel="stylesheet"/>
+    <link href="assets/css/style.css" rel="stylesheet"/>
+    <!-- fonts -->
+    <link href="//fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Federo" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <!--//fonts-->
+    <style>
+      .box h4, h3{
+        text-align: center;
+      }
+      b{
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body ng-app="thankam">
+   <div style="z-index:99999" class="container-fluid">
+                      <div id="sm-menu" class="menu-sd">
+                        <div class="row menu-top-smd">
+                          <i onclick="hideSM()" class="fa fa-times"></i>
+                        </div>
+
+                            <ul  style="margin-top: 30px;" class="menu-itmen-sm">
+                                      <li onclick="hideSM()"  id="mm1" onlick="changeSelect(1)" class="active  mom"> <a href="index.html" >
+                                        <i class="fa fa-home"></i>
+                                         Home</a></li>
+
+                                       <li onclick="hideSM()" class="mom" id="mm2" onclick="changeSelect(2)" > <a href="aboutus.html">
+                                       <i class="fa fa-shield"></i>
+                                         About Us</a></li>   
+                                    
+                                     <li  onclick="hideSM()" class="mom" id="mm3" onclick="changeSelect(3)"  > <a href="supportus.html">
+                                         <i class="fa fa-credit-card"></i>
+                                         Our Supportors</a></li>
+                                     <li onclick="hideSM()" class="mom" id="mm4" onclick="changeSelect(4)"  > <a href="gallery.html">
+                                        <i class="fa fa-photo"></i>
+                                         Gallery</a></li>
+                                    <li onclick="hideSM()" class="mom" id="mm7"  onclick="changeSelect(7)"  > <a href="contactus.html">
+                                        <i class=" fa fa-map-marker"></i>
+                                        Contact Us</a></li>
+                                     
+                                </ul>
+       </div>
+
+                <div class="mobile-head shado-1 visible-xs">
+                        <img style="width:50px;" class="logo" src="assets/images/logo.jpeg">
+                            <h1 style="width:70%">GoForGomti</h1>
+                            <b style="margin-left: 4px;">social awareness foundation</b>
+
+                            <i onclick="showSM()" class="fa fa-navicon smal-menu-ico cp"></i>
+                </div>
+
+                <header class="hidden-xs">
+                    
+                    <nav style="position: absolute;" class="navmenu">
+                        <div style="margin:auto" >
+                            <div class="nav-content shado-1">
+
+                              <div class="container">
+                                <div style="height: 94px; overflow: hidden" class="col-md-4 col-sm-12">
+                                     <img style="width:90px;" class="logo" src="assets/images/logo.jpeg">
+                                    <h1 style="width:70%">GoForGomti</h1>
+                                     <b style="margin-left: 4px;">social awareness foundation</b>
+                                 </div>
+                                  <div style="height: 94px; overflow: hidden"  class="col-md-8 hidden-sm">
+                                      <button data-toggle="modal" data-target="#myModal" class="btn btn-sm btn-donat"><i class="fa fa-inr"></i> Donate Now</button>
+                                      
+                                        <ul class="top-right">
+                                                <li ><a href="https://www.facebook.com/profile.php?id=100094722791742&mibextid=9R9pXO"><i class="fa fa-facebook-square fico-s hidden-xs"></i></a></li>
+                                                 <li><a href="https://x.com/goforgomti?s=11" target="_blank"><i class="fa fa-twitter fico-s hidden-xs"></i></a></li>
+                                                  <li><a href="https://instagram.com/goforgomti?igshid=MzRlODBiNWFlZA=="><i class="fa fa-instagram fico-s hidden-xs"></i></a></li>
+                                                   <li><a href="https://chat.whatsapp.com/KFs034MA2ZyAnoDT53vyzA" target="_blank"><i class="fa fa-whatsapp fico-s hidden-xs"></i></a></li>
+                                                   <li><a href="mailto: goforgomti@gmail.com"><i class="fa fa-envelope fico-s hidden-xs"></i></a></li>
+                                                  
+                                            </ul>
+                                            <div class="exu">
+                                               <i class="fa fa-phone"></i> :  +91 8737939906
+                                                <i style="margin-left: 30px;" class="fa fa-envelope"></i> :  goforgomti@gmail.com
+                                            </div>
+                                  </div>
+                                </div>
+                                <div>
+                                </div>
+                            </div>
+                            <div class="my-nav shado-1">
+                                <div class="container">
+                                    <ul  class="nav-menu1">
+                                      <li onclick="hideSM()"  id="mm1" onlick="changeSelect(1)" class="active  mom"> <a href="index.html" >
+                                        <i class="fa fa-home"></i>
+                                         Home</a></li>
+
+                                       <li onclick="hideSM()" class="mom" id="mm2" onclick="changeSelect(2)" > <a href="aboutus.html">
+                                       <i class="fa fa-shield"></i>
+                                         About Us</a></li>   
+                                    
+                                     <li  onclick="hideSM()" class="mom" id="mm3" onclick="changeSelect(3)"  > <a href="supportus.html">
+                                         <i class="fa fa-credit-card"></i>
+                                         Our Supportors</a></li>
+                                     <li onclick="hideSM()" class="mom" id="mm4" onclick="changeSelect(4)"  > <a href="gallery.html">
+                                        <i class="fa fa-photo"></i>
+                                         Gallery</a></li>
+                                    <li onclick="hideSM()" class="mom" id="mm7"  onclick="changeSelect(7)"  > <a href="contactus.html">
+                                        <i class=" fa fa-map-marker"></i>
+                                        Contact Us</a></li>
+                                     
+                                </ul>
+                                </div>
+                              
+                            </div>
+                        </div>
+                    </nav>
+                    <div class="header-top shado-6">
+                        <div style="z-index: 999999;" class="container">
+                        
+                        <ul class="top-left">
+                            <li class="rit-border"> Donate </li>
+                            <li class="rit-border"> Join Volunteer </li>
+                            <li> 9159449499 </li>
+                        </ul>
+                            <ul class="top-right">
+                                <li><i class="fa fa"></i></li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                    
+                </header>
+      </div>
+  <!---************************** Header content Ends Here ***************-->    
+
+<div  class="home-cont">
+<div  class="container-fluid sldddd">
+      <div class=" row hidden-xs">
+          
+<div style="height:500px; margin-top:0px;" class="slider img-back">
+</div>
+          
+          </div>
+          <div class="container add-tionn">
+          <div class="row">
+                <div class="col-sm-6">
+                  
+                    <img style="width: 100%;" src="assets/images/gallery/rajnath1.jpeg">
+                    
+                </div>
+              
+              <div class="col-sm-6 abut">
+                  
+                   <div class="row hed">
+              
+              <h3>About Us</h3>
+              </div>
+                  
+                  <p >
+                    At Clean Gomti NGO, we are dedicated to the restoration and preservation of the iconic Gomti River that flows through the heart of Lucknow. Our mission is to revive the Gomti's pristine beauty, making it a source of life, recreation, and pride for the residents of Lucknow once again. With unwavering commitment and collaborative efforts, we are striving to address the challenges that have plagued this historic river and bring about positive change.
+                  </p>
+                  
+                  <h3>Our Aim</h3>
+                  <p>Our primary goal is to rejuvenate the Gomti River, focusing on the following key areas:</p>
+                  <ul>
+                    <li><b>Water Quality Improvement:</b> Through consistent monitoring, awareness campaigns, and community participation, we are working towards enhancing the water quality of the Gomti River, ensuring a healthier ecosystem for both aquatic life and human use. </li>
+
+                    <li><b>Waste Management:</b>We aim to reduce pollution by implementing effective waste management strategies. We organize regular clean-up drives along the riverbanks and educate communities about responsible waste disposal practices.</li>
+                    
+                    <li><b>Biodiversity Conservation:</b> Protecting the diverse flora and fauna along the river is essential for a balanced ecosystem. Our initiatives involve planting native vegetation, creating green spaces, and promoting the habitat for local wildlife.</li>
+                    
+                    <li><b>Community Engagement:</b> We believe that a sustainable transformation can only be achieved through collective efforts. We engage with local communities, schools, and businesses to raise awareness, conduct workshops, and foster a sense of ownership towards the river's well-being. </li>
+              </ul>    
+            </div>
+          </div>
+        </div>
+          
+          <!--Core Team-->
+
+          <div class="container">
+            <div class="row hed">
+              
+              <h2>Our Core Team</h2>
+              </div>
+          
+              <div class="row team">
+                    <div class="col-sm-4">
+                      <div class="card box">
+
+                        <img src="assets/images/gallery/RJ Prateek.JPG">
+                        <div class="box-txt">
+                           <b>RJ Prateek</b>
+                           <hr> <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat ullam numquam officia totam id animi alias tenetur ea obcaecati nulla!</p>
+                        </div>
+                      </div>
+                    </div>
+                  
+                     <div class="col-sm-4">
+                      <div class="card box">
+
+                        <img src="assets/images/gallery/Saurabh Mishra.JPG">
+                        <div class="box-txt">
+                           <b>Saurabh Mishra</b> <hr> 
+                           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat ullam numquam officia totam id animi alias tenetur ea obcaecati nulla!</p>
+                        </div>
+                      </div>
+                    </div>
+
+                   <div class="col-sm-4">
+                      <div class="card box">
+
+                        <img src="assets/images/gallery/Saurabh Chandra.JPG">
+                        <div class="box-txt">
+                           <b>Saurabh Chandra</b><hr> 
+                           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat ullam numquam officia totam id animi alias tenetur ea obcaecati nulla!</p>
+                        </div>
+                      </div>
+                    </div>
+
+                     <div style="margin-top: 10px;" class="col-sm-4">
+                      <div class="card box">
+                        <img src="assets/images/gallery/saquib.JPG">
+                        <div class="box-txt">
+                           <b>Saquib</b><hr>
+                           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat ullam numquam officia totam id animi alias tenetur ea obcaecati nulla!</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div style="margin-top: 10px;" class="col-sm-4">
+                      <div class="card box">
+                        <img src="assets/images/gallery/Neel Shakya.JPG">
+                        <div class="box-txt">
+                           <b>Neel Shakya</b> <hr>
+                           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat ullam numquam officia totam id animi alias tenetur ea obcaecati nulla!</p>
+                        </div>
+                      </div>
+                    </div>
+                 <div style="margin-top: 10px;" class="col-sm-4">
+                      <div class="card box">
+
+                        <img src="assets/images/gallery/XYZ.JPG">
+                        <div class="box-txt">
+                           <b>Ankit Singh </b><hr> 
+                           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat ullam numquam officia totam id animi alias tenetur ea obcaecati nulla!</p>
+                        </div>
+                      </div>
+              </div>
+              <div style="margin-top: 10px;" class="col-sm-4">
+                <div class="card box">
+
+                  <img src="assets/images/gallery/g1.JPG">
+                  <div class="box-txt">
+                     <b>Ankit Dixit</b> <hr>
+                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat ullam numquam officia totam id animi alias tenetur ea obcaecati nulla!</p>
+                  </div>
+                </div>
+              </div>
+           <div style="margin-top: 10px;" class="col-sm-4">
+                <div class="card box">
+
+                  <img src="assets/images/gallery/vivek.jpg">
+                  <div class="box-txt">
+                     <b>Vivek Gupta </b><hr> 
+                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat ullam numquam officia totam id animi alias tenetur ea obcaecati nulla!</p>
+                  </div>
+                </div>
+        </div>
+
+          </div>
+          </div>
+          <!--Our Wings-->
+          <div class="container">
+            <div class="row hed">
+              
+              <h2>Our Wings</h2>
+              </div>
+          
+              <div class="row team">
+                    <div class="col-sm-4">
+                      <div class="card box">
+                      <img src="./assets/images/gallery/Ramanshi_Mishra_Head_Corporate_Wing.JPG" alt="" style="border-radius: 5px;">
+                        <h3 style="text-align: center;">Corporate Wing</h3> 
+                          <h4 style="text-align: center;">Head Ramanshi Mishra</h4>
+                          <div class="box-txt">
+                          <p>TAs Brian Chesky, Co-Founder, CEO, Airbnb once said  “Corporate Culture is simply a shared way of doing something with a passion.”<br>
+                            So yes Go For Gomti’s corporate wing is for those who want to contribute in society by their positive actions but the Busy schedule and Boss snatch the chance of doing anything special in the life.
+                            So this wing is absolutely for persons who are busy in their business or 9-6(actually 24*6)job, 
+                            They come on Sunday Morning and join the drive and contribute some hard work and smile into the society.
+                            A place for making new friends,networking ,doing good for Mother Earth and specially To live with Non Judgemental People.
+                            </p>
+                            </div>
+                        </div>
+                    </div>
+                  
+                    <div class="col-sm-4">
+                      <div class="card box">
+                      <img src="./assets/images/gallery/Neetu_Mishra_Head_Women's_Wing.JPG" alt="" style="border-radius: 5px;">
+                       <h3>Women's Wing</h3> 
+                          <h4>Head - Dr. Neetu Mishra</h4>
+                          <div class="box-txt">
+                          <p>Go for Gomti's Women's wing plays a vital role by raising awareness, mobilizing volunteers, implementing  sustainable practice and advocating for positive change, as well as actively participating in every drive. Their active involvement and leadership contribute a lot. <br>
+                            Any girl who wants to make a tangible difference to the health and well-being of the environment and community can join Women's wing and explore their positive personality traits . Here you can grow as a unique individual by breaking gender stereotypes. 
+                            
+                            </p>
+                            </div>
+                    </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="card box">
+                      <img src="./assets/images/gallery/Nishkarsh_Sharma_Head_Student's_Wing.JPG" alt="" style="border-radius: 5px;">
+                       <h3>Student Wing</h3>
+                          <h4>Head - Nishkarsh Sharma</h4>
+                          <div class="box-txt">
+                          <p>Student Wing of Go For Gomti is playing a very important role in cleanliness of Gomti River. We work in the field for awareness of public and minimising the usage of Single use plastics. And If you belong to college or university then you are welcome to our Student wing because we work with a proper planning and strategies.</p>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="row team">
+                    <div class="col-sm-4">
+                      <div class="card box">
+                      <img src="./assets/images/gallery/Prakanshu_Dwivedi_Head_Sports_Wing.JPG" style="border-radius:5px">
+                      <h3>Sports Wing</h3> 
+                         <h4>Head - Prakanshu Dwivedi</h4>
+                         <div class="box-txt">
+                         <p>Unleash Your Inner Sports Personality! Join Us Now!
+                          <br>
+                          Are you a champion looking to make a positive impact in your community? Join our sports wings  today and be a part of our mission to clean and  transform our gomti river<br>
+                          What we offer:<br>
+                          -A supportive and inclusive community of champions<br>
+                          -Opportunities to engage in every Sunday Gomti river activities<br>
+                          Who can join:<br>
+                          -Individuals committed to maintaining discipline, politeness, and punctuality<br>
+                          -Together, we can create a cleaner and more beautiful gomti for everyone to enjoy<br>
+                          -and plz sirf vahi champions join kre SPORTS WING jo sach me badlav lana chahte hai apni leadership qualities k dum pr
+                          </p>  
+                   </div>
+                   </div>
+                   </div>
+                    <div class="col-sm-4">
+                    <div class="card box">
+                    <img src="./assets/images/gallery/Shagun_Head_Experieced_Wing.JPG" alt="" style="border-radius: 5px;">
+                    <h3>Experience citizen wing</h3> 
+                       <h4>Head - Shagun</h4>
+                       <div class="box-txt">
+                       <p>We know you have lots of experience in various fields of life. So come and join our wing and shower love , blessing and valuable guidance. There are so many skills , personality traits and a definite philosophy of life  we can learn from you. Utilize your leisure time and share your precious experience with us.
+                        Convert your Sunday into funday with GoForGomti.
+                        </p>  
+                 </div>
+                 </div>
+                 </div>
+                 <div class="col-sm-4">
+                  <div class="card box">
+                  <img src="./assets/images/gallery/Ramandeep_Head_Environment_Wing.JPG" alt="" style="border-radius: 5px;">
+                  <h3>Environment Wing</h3> 
+                     <h4>Head - Ramandeep</h4>
+                     <div class="box-txt">
+                     <p>Revitalize Our Rivers- Join the Movement!
+                      Transforming rivers, one action at a time. Stand up for cleaner water, thriving ecosystems, and a brighter future. Volunteer now to remove pollution, restore habitats, and inspire the change. Together, let's rejuvenate our rivers and ensure a sustainable legacy for generations. Join us and make a lasting impact!
+                      </p>  
+               </div>
+              </div>
+              </div>         
+          </div>
+     
+        </div> 
+             
+ </div>        
+
+  <!---************************** Body content Ends Here ***************-->  
+
+      <footer style="margin-top:25px;">
+        <div class="container foot-cont">
+          <div class="col-sm-4">
+              <b>About Us</b>
+              <p style="font-size: 1.1rem;">
+                GoForGomti is a dedicated non-governmental organization (NGO) committed to reviving and rejuvenating the Gomti River – a lifeline that sustains our city's heritage, culture, and environment. We have taken upon ourselves the responsibility of restoring the Gomti River to its former glory by addressing the challenges it faces and fostering a community-driven movement towards its preservation.
+              </p>
+          </div>
+           <div class="col-sm-3">
+              <b>Address</b>
+               
+               <p style="font-size: 1.1rem;">Rastogi Ghat<br>
+               
+                Lete Huye Hanuman Mandir <br>
+                   
+                    Near Pakka Pul <br>
+                   
+                    Lucknow <br>
+   <br>
+               
+               </p>
+               
+          </div>  
+        
+        <div class="col-sm-5 scmsug">
+            <b style="text-align:center; width:100%; margin-left:30%;">Join Us</b><br><br>
+            <ul class="wh">
+                <li>Every Sunday   <b> 6:00 AM to 9:00 AM</b></li>
+                <br> <p>Email us : goforgomti@gmail.com <br>
+                Contact us : +91 8737939906</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d222.43845818504806!2d80.91624800000001!3d26.871254!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfd8eabe9a2c5%3A0xa67418d088cba92a!2sLete%20Hanuman%20mandir%2Cgomtikinary!5e0!3m2!1sen!2sin!4v1692347081385!5m2!1sen!2sin" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </ul>
+        </div>
+        
+    </div>
+    
+     <div class=" smarti">
+            <div class="container">
+            <p>All Rights Reserved &copy; GoForGomti | Designed &amp; Developed By WebCross
+              <a href="https://www.facebook.com/profile.php?id=100094722791742&mibextid=9R9pXO"><i class="fa fa-facebook-square fico-s hidden-xs"></i></a>
+              <a href="https://x.com/goforgomti?s=11" target="_blank"><i class="fa fa-twitter fico-s hidden-xs"></i></a>
+              <a href="https://instagram.com/goforgomti?igshid=MzRlODBiNWFlZA=="><i class="fa fa-instagram fico-s hidden-xs"></i></a>
+               <a href="https://chat.whatsapp.com/KFs034MA2ZyAnoDT53vyzA" target="_blank"><i class="fa fa-whatsapp fico-s hidden-xs"></i></a>
+               <a href="mailto: goforgomti@gmail.com"><i class="fa fa-envelope fico-s hidden-xs"></i></a>
+               </p>
+         
+         </div>
+        </div>
+    
+    </footer>
+      
+      </div>
+       
+      <div style="z-index: 999999; margin-top: 10%;" class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div style="width:450px;" class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Donate Now</h4>
+      </div>
+      <div style="padding: 20px;" class="modal-body">
+      <!--Your Content Here-->
+      <p></p>
+      </div>
+     
+    </div>
+  </div>
+</div>
+      
+      
+      
+      
+
+  </body>
+
+
+<script src="assets/js/angular.min.js"></script>
+<script src="assets/js/angular-ui-router.min.js"></script>      
+<script src="assets/js/jquery-1.11.3.min.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/lightbox-plus-jquery.min.js"></script>
+<script src="assets/js/script.js"></script>
+</html>
