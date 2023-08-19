@@ -197,7 +197,7 @@ header{z-index: 99999;}
     
 }
 .hed h2{ font-size: 23px; font-weight: 600;
-  border-bottom: 3px solid #109D58;
+  border-bottom: 3px solid #310bb0;
     color: #333;
     display: inline-block;
     font: 400 22px/22px "Roboto Slab",serif;
@@ -358,7 +358,7 @@ footer{width: 100%; background-color:#222;  }
 .fls li{color: #FFF; padding: 15px; font-size: 15px; float: left;}
 .fico-s{ float: right; font-size: 21px; width: 40px;}
 .time .col-sm-3{padding: 5px;}
-.timeline-head{background-color: #109D58; color: #FFF; padding: 10px; text-align: center; font-weight: 600;}
+.timeline-head{background-color: #10289d; color: #FFF; padding: 10px; text-align: center; font-weight: 600;}
 .timeline-head .mnt{font-weight: 600; font-size: 25px;  }
 .arrow-down {
 	width: 0; 
@@ -367,7 +367,7 @@ footer{width: 100%; background-color:#222;  }
 	border-left: 20px solid transparent;
 	border-right: 20px solid transparent;
 	
-	border-top: 20px solid #109D58;
+	border-top: 20px solid #0e3893;
     margin-top: 20px;
 }
 .tim-img img{width: 100%;}
